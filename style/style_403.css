@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../errorpages/bg403.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    margin:auto;
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+.button {
+  width: 150px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin: auto;
+  position: relative;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.button:hover {
+    background-color: #fff;
+  color: gray;
+}
+
+.button:focus {
+    background-color: #fff;
+  color: gray;
+}
+
+.button:active {
+  background-color: #fff;
+  color: gray;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration:none;
+    color: rgb(64,64,64);
+    padding: 10px 20px 10px 20px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color:darkred;
+}
+
+div div a:link {
+    font-weight: bold;
+    color: #fff;
+}
+
+div div:hover a {
+    font-weight: bold;
+    color:gray;
+}
+
+.nadruk {
+    font-size: 25px;
+    background-color: rgba(64,64,64,0.4);
+    padding: 20px;
+}
